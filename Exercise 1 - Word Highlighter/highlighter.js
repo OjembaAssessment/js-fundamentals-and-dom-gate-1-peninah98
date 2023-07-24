@@ -44,7 +44,9 @@ result.forEach((word) => {
       if (splittedArray[i] === word) {
         splittedArray[i] = `<span style="background-color: yellow;">${word}</span>`;
       }
-    //   if(splittedArray[i] === word &&splittedArray[i].charAt(0) == )
+     if(splittedArray[i] === word &&splittedArray[i].charAt(0) ==/^\p{Lu}/u.test( word ) ){
+        word.style.textDecoration = "underline";
+     }
     }
   });
   
