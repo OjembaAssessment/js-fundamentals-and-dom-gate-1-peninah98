@@ -1,4 +1,52 @@
 #myTimer {
-    color: red;
-    font-size: 64px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    width: max-content;
+    flex-direction: column;
+    padding: 20px;
 }
+
+.color{
+    padding: 20px;
+    background-color: rgb(178, 220, 178);
+}
+
+.message{
+    font-size: 60px;
+    padding:40px 70px
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+button{
+    font-size: 20px;
+}
+
+.reset{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    
+}
+
+.resetBtn{
+    padding:20px 40px;
+}
+
+.stopBtn{
+    padding:20px 40px;
+}
+
+
